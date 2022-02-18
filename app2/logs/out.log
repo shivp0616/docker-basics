@@ -1,0 +1,15 @@
+2022-02-17 23:48:27,814:WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-02-17 23:48:27,816:INFO:werkzeug: * Running on http://172.22.0.2:5001/ (Press CTRL+C to quit)
+2022-02-17 23:48:37,588:INFO:werkzeug:172.22.0.1 - - [17/Feb/2022 23:48:37] "[35m[1mGET /test-error HTTP/1.1[0m" 500 -
+2022-02-17 23:48:46,491:INFO:werkzeug:172.22.0.1 - - [17/Feb/2022 23:48:46] "GET /health HTTP/1.1" 200 -
+2022-02-18 08:38:05,971:WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2022-02-18 08:38:05,973:INFO:werkzeug: * Running on http://172.28.0.2:5001/ (Press CTRL+C to quit)
+2022-02-18 08:38:40,449:INFO:werkzeug:172.28.0.1 - - [18/Feb/2022 08:38:40] "GET / HTTP/1.1" 200 -
+2022-02-18 08:38:52,856:INFO:werkzeug:172.28.0.1 - - [18/Feb/2022 08:38:52] "GET / HTTP/1.1" 200 -
+2022-02-18 08:38:53,600:INFO:werkzeug:172.28.0.1 - - [18/Feb/2022 08:38:53] "GET / HTTP/1.1" 200 -
+2022-02-18 08:38:54,941:INFO:werkzeug:172.28.0.1 - - [18/Feb/2022 08:38:54] "GET / HTTP/1.1" 200 -
+2022-02-18 08:39:00,063:INFO:werkzeug:172.28.0.1 - - [18/Feb/2022 08:39:00] "GET / HTTP/1.1" 200 -
+2022-02-18 08:39:05,552:INFO:werkzeug:172.28.0.1 - - [18/Feb/2022 08:39:05] "GET / HTTP/1.1" 200 -
+2022-02-18 08:39:20,238:INFO:werkzeug:172.28.0.1 - - [18/Feb/2022 08:39:20] "GET /health HTTP/1.1" 200 -

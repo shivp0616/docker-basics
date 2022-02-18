@@ -1,0 +1,17 @@
+version: '2.0'
+services:
+  app1:
+    image: app1
+    build:
+      context: .
+    env_file:
+      - .env
+    # environment:
+    #   - APP_2_URL = 'http://app2:5001'
+    networks:
+      - test-network
+    ports:
+      - "80:5000"
+networks:
+  test-network:
+      name: test-network  # name of your network

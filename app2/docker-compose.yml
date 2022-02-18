@@ -1,0 +1,17 @@
+version: '2.0'
+services:
+  app2:
+    image: app2
+    build:
+      context: .
+    # networks:
+    #   - test-network
+    ports:
+      - "5001:5001"
+    # volumes:
+    # - ./logs:/app/logs
+    # extra_hosts:
+    #   - "abc.app.home:11.1.14.191"
+# networks:
+#   test-network:
+#     name: test-network  # name of your network

@@ -1,0 +1,27 @@
+networks:
+  test-network:
+    name: test-network
+    # driver: bridge
+
+version: '2.0'
+services:
+  app1:
+    image: app1
+    build:
+      context: ./app1/.
+    env_file:
+      - ./app1/.env
+    networks:
+      - test-network
+    ports:
+      - "80:5000"
+  app2:
+    image: app2
+    build:
+      context: ./app2/.
+    volumes:
+    - ./logs:/app/logs
+    networks:
+      - test-network
+    ports:
+      - "5001:5001"
