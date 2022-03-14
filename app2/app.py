@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return Response("{'message':'Hello from app3'}", status=200, mimetype="application/json")
+    return Response("{'message':'Hello from app1'}", status=200, mimetype="application/json")
 
 @app.route("/health")
 def health():
