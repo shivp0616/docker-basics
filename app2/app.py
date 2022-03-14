@@ -1,6 +1,9 @@
 from flask import Flask, Response
-
+import os, os.path
 import logging
+
+if not os.path.exists("./logs/"):
+    os.makedirs("./logs/")
 
 logging.basicConfig(
         level=logging.DEBUG,
